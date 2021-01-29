@@ -1,18 +1,18 @@
 # using this list, 
-basket = ["Banana", "Apples", "Oranges", "Blueberries"];
+cart = ["Banana", "Apples", "Oranges", "Blueberries"]
 
 # 1. Remove the Banana from the list
-basket.remove("Banana")
+cart.remove("Banana")
 
 # 2. Remove "Blueberries" from the list.
-basket.remove("Blueberries")
+cart.remove("Blueberries")
 # 3. Put "Kiwi" at the end of the list.
-basket.append("Kiwi")
+cart.append("Kiwi")
 # 4. Add "Apples" at the beginning of the list
-basket.insert(0, "Apples")
-# 5. Count how many apples in the basket
-print(basket.count("Apples"))
-# 6. empty the basket
-basket.clear()
+cart.insert(0, "Apples")
+# 5. Count how many apples in the cart
+print(cart.count("Apples"))
+# 6. empty the cart
+cart.clear()
 
-print(basket)
+print(cart)

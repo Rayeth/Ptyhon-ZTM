@@ -1,10 +1,10 @@
 some_list = ['a', 'b', 'c', 'b', 'm', 'n', 'n']
 
-sorted_list = sorted(some_list)
-for item in sorted_list:
-    if sorted_list.count(item) > 1:
-        print(item)
-        sorted_list.remove(item)
-    else:
-        continue
+duplicates = []
+for value in some_list:
+    if some_list.count(value) > 1:
+        if value not in duplicates:
+            duplicates.append(value)
+
+print(duplicates)
     
