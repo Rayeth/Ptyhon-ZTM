@@ -11,10 +11,10 @@ class PlayerCharacter:
         self.name = name # attribute
         self.age = age # attribute
     def run(self):
-        print('run')
+        return self
 
 player1 = PlayerCharacter('Bob', 27)
 player2 = PlayerCharacter('Marta', 25)
 
-print(player1.membership)
-print(player2.membership)
+
+
