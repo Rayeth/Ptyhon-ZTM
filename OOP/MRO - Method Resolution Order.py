@@ -13,3 +13,4 @@ class D(B, C):
 
 print(D.num)
 print(D.mro())
+
