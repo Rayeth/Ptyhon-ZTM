@@ -7,14 +7,14 @@ def fib(number):
     a = 0
     b = 1
 
-    for item in range(number):
+    for i in range(number):
         yield a
         temp = a
         a = b
         b = temp + b
 
 
-for x in fib(2):
+for x in fib(4):
     print(x)
 
 
